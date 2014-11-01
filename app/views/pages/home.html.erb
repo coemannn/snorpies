@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Year 1</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #666;    
+    text-align: center;
+    height: 600px !important;
+}
+.carousel{
+    margin-top: 10px;
+}
+.bs-example{
+  margin: 10px;
+}
+</style>
+ 
+<div>
+   <h1><b><font color="#04375E">George and Christina </font></b>
+   </h1>
+    <h3><i>Year 1</i></h3>
+</div>
+
+</head>
+<body>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <%= image_tag("1.jpg", :alt => "first pic") %>
+            <div class="carousel-caption">Austin</div>
+        </div>
+        <div class="item">
+            <%= image_tag("2.jpg", :alt => "second pic") %>
+            <div class="carousel-caption">Japan</div>
+        </div>
+        <div class="item">
+            <%= image_tag("3.jpg", :alt => "third pic") %>
+            <div class="carousel-caption">Spring Gala</div>
+        </div>
+        <div class="item">
+            <%= image_tag("4.jpg", :alt => "fourth pic") %>
+            <div class="carousel-caption">Babbo</div>
+        </div>
+        <div class="item">
+            <%= image_tag("5.jpg", :alt => "fifth pic") %>
+            <div class="carousel-caption">London</div>
+        </div>
+        <div class="item">
+            <%= image_tag("6.jpg", :alt => "sixth pic") %>
+            <div class="carousel-caption">Gili Islands</div>
+        </div>
+        <div class="item">
+            <%= image_tag("7.jpg", :alt => "seventh pic") %>
+            <div class="carousel-caption">Rinjani</div>
+        </div>
+        <div class="item">
+            <%= image_tag("8.jpg", :alt => "eigth pic") %>
+            <div class="carousel-caption">Bali</div>
+        </div>
+        <div class="item">
+            <%= image_tag("9.jpg", :alt => "ninth pic") %>
+            <div class="carousel-caption">Montreal</div>
+        </div>
+    </div>
+    <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+ <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
+</div>
+</body>
+</html>
