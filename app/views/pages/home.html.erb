@@ -102,11 +102,15 @@ h2{
 </html>
 <% else %>
 
+<div style="background-color: #04375E !important" class="jumbotron center">
+	<h1 style="color:white">Welcome to Snorpies.com</h1>
+	
+</div>
+
 <div class="jumbotron center">
-	<h1>Welcome to Snorpies.com</h1>
-	<p>
-		<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
-	</p>
+    <p>
+        <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+    </p>
 </div>
 
 <% end %>
